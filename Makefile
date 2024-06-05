@@ -5,7 +5,7 @@ produce:
 	curl -o china_ip_list.txt https://ispip.clang.cn/all_cn_cidr.txt
 	python3 produce.py
 	# sudo mv routes4.conf /etc/bird/routes4.conf
-	mv routes4.conf /etc/bird/routes4.conf
+	mv routes4.conf /etc/bird4/routes4.conf
 	# sudo mv routes6.conf /etc/bird/routes6.conf
 	# sudo birdc configure
 	birdc4 configure
