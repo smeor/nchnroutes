@@ -1,7 +1,7 @@
 # nchnroutes
 ## 根据op修改了下
-ipip 获取得txt改为* 
-`python3 produce.py --ipv4-list ipip` - only use list [from ipip.net](https://ispip.clang.cn/all_cn_cidr.txt)
+ipip 获取得txt改为
+* `python3 produce.py --ipv4-list ipip` - only use list [from ispip.clang.cn](https://ispip.clang.cn/all_cn_cidr.txt)
 
 
 Similar to chnroutes, but instead generates routes that are not originating from Mainland
